@@ -1,0 +1,21 @@
+.BarreRecherche{
+    position: fixed;
+    top :0;
+    right: 10px;
+    width: 50%;
+}
+
+#root{
+    padding-top:80px ;
+}
+
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.headerTable th h2,.headerTable th{
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+

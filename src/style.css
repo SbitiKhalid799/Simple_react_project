@@ -1,0 +1,80 @@
+.Conteneur{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Entrer{
+    margin-top: 20px;
+    width: 250px;
+    font-size: 25px;
+    border: 1px solid burlywood;
+    padding: 4px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.Ajouter{
+    margin: 4px;
+    font-size: 15px;
+    padding: 6px;
+    background-color: burlywood;
+    color :white;
+    height: 40px;
+    border-radius: 30px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.Ajouter:hover{
+    background-color: white;
+    color :burlywood;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type:none;
+    margin-top:70px ;
+
+}
+li{
+    background-color: burlywood;
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.barreFix{
+    position: fixed;
+    top :0;
+}
+
+.Supprimer{
+    background-color: white;
+    border: none ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    color :rgb(225, 166, 88);
+    border: 2px solid white;
+
+}
+
+.Supprimer:hover{
+    color: white;
+    background: burlywood;
+    border: 2px solid white;
+}
